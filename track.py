@@ -10,7 +10,7 @@ nest_asyncio.apply()
 # ---------------------------
 # 🔹 LLM Client
 # ---------------------------
-client = OpenAI(api_key="your api key")
+client = OpenAI(api_key=${{ secrets.OPENAI_API_KEY }})
 
 # ---------------------------
 # 🔹 Cache

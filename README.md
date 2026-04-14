@@ -3,7 +3,10 @@
 A **real-time Streamlit dashboard** for monitoring and interacting with LLM (Large Language Model) queries. This project combines **semantic caching, model routing, async processing, and observability metrics** into a clean, interactive interface.
 
 ---
+# Task
+My goal was to design an internal LLM infrastructure layer that could intelligently optimize cost, latency, and scalability, while maintaining response quality across different GenAI use cases.
 
+---
 ##  Features
 
 - **Semantic Caching:** Reuse previous query responses using embedding similarity to reduce redundant API calls.  
